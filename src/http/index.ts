@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = `http://localhost:4100`;
+export const API_URL = `https://advaced-backend.vercel.app`;
 
 const $axios = axios.create({
   withCredentials: true,
